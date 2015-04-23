@@ -37,7 +37,8 @@ static NSString * const kShowDetailIdentifier = @"showDetail";
 - (BeanTransitionManager *)beanTransitioningManager
 {
     if (!_beanTransitioningManager) {
-        _beanTransitioningManager = [[BeanTransitionManager alloc] initWithExpandingImageView:self.expandingImageView andTransitionDuration:0.50];
+        _beanTransitioningManager = [[BeanTransitionManager alloc] initWithExpandingImageView:self.expandingImageView
+                                                                        andTransitionDuration:1.5];
     }
     
     return _beanTransitioningManager;

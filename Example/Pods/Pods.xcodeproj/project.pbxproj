@@ -7,133 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005BF13817ED6E4F516255BE /* UIImageView+BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FFA023B14DAD49043988A /* UIImageView+BeanTransitionManager.m */; };
-		0FA32462E804BC8432B6B878 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 704B5AF534AD4E5B93B468C0 /* Pods-Tests-dummy.m */; };
-		20D8AD160156825D653FA83B /* BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C06922B3DB4C93DE046B2F8 /* BeanTransitionManager.m */; };
-		31903609B8FB50F2FC2112FE /* UIImageView+BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 026D2D59380AAC60E0CFE94E /* UIImageView+BeanTransitionManager.h */; };
-		47689DFB82C4155A916E65D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB994EEA0F4C6477DCDB442 /* Foundation.framework */; };
-		6EFAFBC0D5D99F80DD5F4E7A /* BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 50329B63FBF5F3614D2F4881 /* BeanTransitionManager.h */; };
-		84B3A060137E74C017349BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB994EEA0F4C6477DCDB442 /* Foundation.framework */; };
-		948A3F7A9FB4222F69448D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB994EEA0F4C6477DCDB442 /* Foundation.framework */; };
-		949E84082DF47A4B3269F099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB994EEA0F4C6477DCDB442 /* Foundation.framework */; };
-		9D9BBB7E3A0BCDA225C956DA /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB023785024AC3DE1E2FB3D7 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */; };
-		A4AB984D1829C5A521E69BAC /* Pods-BeanTransitionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A32FCB3E834AEA1629B3A750 /* Pods-BeanTransitionManager-dummy.m */; };
-		B64DC73F13B79A856D7CD1DB /* UIImageView+BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 026D2D59380AAC60E0CFE94E /* UIImageView+BeanTransitionManager.h */; };
-		C0C4AF2A3CA27112B6C88310 /* Pods-Tests-BeanTransitionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2570863ADCDDD825B6949B /* Pods-Tests-BeanTransitionManager-dummy.m */; };
-		C150E4A42E5216BEF92FC89F /* BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C06922B3DB4C93DE046B2F8 /* BeanTransitionManager.m */; };
-		C51B33FE5D6561CDF64FD3F8 /* BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 50329B63FBF5F3614D2F4881 /* BeanTransitionManager.h */; };
-		CC5502901B99F2583AC94F3B /* UIImageView+BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FFA023B14DAD49043988A /* UIImageView+BeanTransitionManager.m */; };
+		02C2879A8C0D18EFA9364490 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4420999122DA5D286B1B30A /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */; };
+		0CC57B512E9A511DAE120432 /* BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1986B0127D455FF7F7FCC0F5 /* BeanTransitionManager.m */; };
+		1E6196C74F962BB7D532CD06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113456BEAE9BFA9869B2AD1A /* Foundation.framework */; };
+		36727D05FDE008F99D88B62D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113456BEAE9BFA9869B2AD1A /* Foundation.framework */; };
+		4ADD88611CA41241D0451CE0 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A6BF565A9EECBB86C0C3B /* Pods-Tests-dummy.m */; };
+		5558FB9A65B96F69F92C1011 /* UIImageView+BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C50C9DBED0B859453B22EA /* UIImageView+BeanTransitionManager.h */; };
+		7AE5D89D2D4B5250D1B8A0DB /* BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1986B0127D455FF7F7FCC0F5 /* BeanTransitionManager.m */; };
+		908465BDFEA1040372B42AF8 /* UIImageView+BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD80E84E8BAA80B2247672B /* UIImageView+BeanTransitionManager.m */; };
+		9888D69D0E7D11FEA9EDCFCC /* UIImageView+BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD80E84E8BAA80B2247672B /* UIImageView+BeanTransitionManager.m */; };
+		9BA7751D6CA696131D0F7F3E /* BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D06411D966004BCD5EADCD74 /* BeanTransitionManager.h */; };
+		B5A5129A7A7FE79D1CCB81BF /* Pods-BeanTransitionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7158ECCB73F1B39F2779E279 /* Pods-BeanTransitionManager-dummy.m */; };
+		BEBE89BBA7FDECB84F6F3CF9 /* UIImageView+BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C50C9DBED0B859453B22EA /* UIImageView+BeanTransitionManager.h */; };
+		C1138B9D698C41F10EC69726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113456BEAE9BFA9869B2AD1A /* Foundation.framework */; };
+		DC6FE81BF5157EECBE55F5F5 /* Pods-Tests-BeanTransitionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06329F375D52DD2D28F40C5B /* Pods-Tests-BeanTransitionManager-dummy.m */; };
+		DF9D623425E4D6C397B27922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113456BEAE9BFA9869B2AD1A /* Foundation.framework */; };
+		E87B3957C33B9EE3FA12A253 /* BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D06411D966004BCD5EADCD74 /* BeanTransitionManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A7CAE4022B226AEBB87CB07 /* PBXContainerItemProxy */ = {
+		59941E4028C31A3ACE3FD981 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38623B6D59B7815B04642BD7 /* Project object */;
+			containerPortal = 070AC67D446791CACE692F71 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A082B0D6DC7612B3698D5668;
-			remoteInfo = "Pods-BeanTransitionManager-BeanTransitionManager";
-		};
-		6CDF6D97F1AA61403EA0A790 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38623B6D59B7815B04642BD7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FC6B00861E04F4F039B25D4;
+			remoteGlobalIDString = 66C8475BA72F35C464F2A18A;
 			remoteInfo = "Pods-Tests-BeanTransitionManager-BeanTransitionManager";
 		};
-		EEE1BE65221B68EF6C313E5D /* PBXContainerItemProxy */ = {
+		64D406265ABD27302AC7A924 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38623B6D59B7815B04642BD7 /* Project object */;
+			containerPortal = 070AC67D446791CACE692F71 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB74E68F635A8A51852B82D2;
+			remoteGlobalIDString = D9E7531E77BA31D11DED8196;
 			remoteInfo = "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager";
 		};
-		F1A90F45F7430DE53470DEDF /* PBXContainerItemProxy */ = {
+		9D9315386E460D2EE978EB3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38623B6D59B7815B04642BD7 /* Project object */;
+			containerPortal = 070AC67D446791CACE692F71 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FD35318E116E52753F76C90;
+			remoteGlobalIDString = 5AC044C9A570D3D5461E069B;
+			remoteInfo = "Pods-BeanTransitionManager-BeanTransitionManager";
+		};
+		C023FAC56C00884305D9393D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070AC67D446791CACE692F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2C1A06B793F26FD355CD74;
 			remoteInfo = "Pods-Tests-BeanTransitionManager";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026D2D59380AAC60E0CFE94E /* UIImageView+BeanTransitionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BeanTransitionManager.h"; sourceTree = "<group>"; };
-		0399787AD7F8159FB028991B /* Pods-Tests-BeanTransitionManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-BeanTransitionManager.xcconfig"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager.xcconfig"; sourceTree = "<group>"; };
-		13BE3A23F04459E67CEB5C9D /* BeanTransitionManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanTransitionManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F3DD863B5375801649C7153 /* Pods-BeanTransitionManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeanTransitionManager-resources.sh"; sourceTree = "<group>"; };
-		23F24241008A44992CFE98A2 /* libPods-BeanTransitionManager-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeanTransitionManager-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37E60DB477BEBC0F6EB7F92C /* Pods-BeanTransitionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager.release.xcconfig"; sourceTree = "<group>"; };
-		40B269BC4BE0D2B6F0072F8E /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50329B63FBF5F3614D2F4881 /* BeanTransitionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BeanTransitionManager.h; sourceTree = "<group>"; };
-		5936FFEAAE88009688A19ACE /* libPods-Tests-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AA885A337DD9198E5F13C83 /* Pods-Tests-BeanTransitionManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-BeanTransitionManager-Private.xcconfig"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-Private.xcconfig"; sourceTree = "<group>"; };
-		5C06922B3DB4C93DE046B2F8 /* BeanTransitionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BeanTransitionManager.m; sourceTree = "<group>"; };
-		5EBAF3C9764D3E8C91EB87ED /* BeanTransitionManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanTransitionManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		60CE682068A361E98520003B /* Pods-BeanTransitionManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeanTransitionManager-acknowledgements.plist"; sourceTree = "<group>"; };
-		6BE367246B4EE666B57D5C3B /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		6FC476C34A79A41652A13678 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		704B5AF534AD4E5B93B468C0 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		732FF76AE824F5ECD86F766B /* Pods-Tests-BeanTransitionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-BeanTransitionManager-prefix.pch"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-prefix.pch"; sourceTree = "<group>"; };
-		76D13CCB879EEA1F7BC1202A /* Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch"; sourceTree = "<group>"; };
-		7791D6D945D8B0E451895684 /* Pods-BeanTransitionManager-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeanTransitionManager-environment.h"; sourceTree = "<group>"; };
-		7F74206FC2901D04D8BA8EBD /* Pods-BeanTransitionManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeanTransitionManager-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8FB994EEA0F4C6477DCDB442 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9354B7868E01825B9459C83F /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		978FFDCEEF9919836DF1BF9B /* libPods-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8DB3894C431CC29742DB32 /* Pods-BeanTransitionManager-BeanTransitionManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager-BeanTransitionManager.xcconfig"; sourceTree = "<group>"; };
-		9B2570863ADCDDD825B6949B /* Pods-Tests-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-BeanTransitionManager-dummy.m"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
-		A32FCB3E834AEA1629B3A750 /* Pods-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
-		A76FFA023B14DAD49043988A /* UIImageView+BeanTransitionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BeanTransitionManager.m"; sourceTree = "<group>"; };
-		AB0D26588D5E581A27B75E69 /* Pods-BeanTransitionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager.debug.xcconfig"; sourceTree = "<group>"; };
-		B0FC2C9F56971A3E8F5F3DC0 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3C03972D8F44A9ACBB8C92C /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig"; sourceTree = "<group>"; };
-		DB023785024AC3DE1E2FB3D7 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeanTransitionManager-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
-		DE6F8E57BA511215B954EF73 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EEF7B6E02DD8A19EA855DDAB /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF6AA5A726B126D2F25E5283 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06329F375D52DD2D28F40C5B /* Pods-Tests-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-BeanTransitionManager-dummy.m"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
+		09AE489EC46AA82EA3A10556 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		0A08D3F1D6AD0564110EBCAF /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig"; sourceTree = "<group>"; };
+		113456BEAE9BFA9869B2AD1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		11CA3EF073115EF0E907198C /* Pods-BeanTransitionManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeanTransitionManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1402C39B199DDF03EAE6390B /* Pods-Tests-BeanTransitionManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-BeanTransitionManager-Private.xcconfig"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-Private.xcconfig"; sourceTree = "<group>"; };
+		1986B0127D455FF7F7FCC0F5 /* BeanTransitionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BeanTransitionManager.m; sourceTree = "<group>"; };
+		2D6E41A75F84FB3B773684BE /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		440520B89AAFB0FFF4AB8617 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4882CF62648199C7FED1759F /* Pods-BeanTransitionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager.debug.xcconfig"; sourceTree = "<group>"; };
+		63F50632D2672B80999C7397 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C84F376EF0BEC7070D81C48 /* Pods-BeanTransitionManager-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeanTransitionManager-environment.h"; sourceTree = "<group>"; };
+		7158ECCB73F1B39F2779E279 /* Pods-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
+		72BA0BDD3B6527B5E61CB0E8 /* Pods-BeanTransitionManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeanTransitionManager-resources.sh"; sourceTree = "<group>"; };
+		7E0C41D7633960BAEF5121BF /* Pods-BeanTransitionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager.release.xcconfig"; sourceTree = "<group>"; };
+		825458910CCA7F300A1960A1 /* Pods-Tests-BeanTransitionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-BeanTransitionManager-prefix.pch"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-prefix.pch"; sourceTree = "<group>"; };
+		8457A4EA20E14758B8DE610D /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92D1E1BB6823C2D3B9EDC4B2 /* Pods-Tests-BeanTransitionManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-BeanTransitionManager.xcconfig"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager.xcconfig"; sourceTree = "<group>"; };
+		9CD80E84E8BAA80B2247672B /* UIImageView+BeanTransitionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BeanTransitionManager.m"; sourceTree = "<group>"; };
+		A48F3B830B2B7059AAAF31F8 /* libPods-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A985C9804EC9094F7103E257 /* BeanTransitionManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanTransitionManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1792C6EED39CD71BFF2587 /* libPods-BeanTransitionManager-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeanTransitionManager-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2F140C270D10929E802AFC /* BeanTransitionManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanTransitionManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B529AA48008BF858535D0EB6 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B69CB0CD03A67521757D809A /* Pods-BeanTransitionManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeanTransitionManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE505509FAA48348B5A6A791 /* libPods-Tests-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4420999122DA5D286B1B30A /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeanTransitionManager-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
+		C45A6BF565A9EECBB86C0C3B /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		C7E2C0ADE0723E5804BA6108 /* Pods-BeanTransitionManager-BeanTransitionManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager-BeanTransitionManager.xcconfig"; sourceTree = "<group>"; };
+		D06411D966004BCD5EADCD74 /* BeanTransitionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BeanTransitionManager.h; sourceTree = "<group>"; };
+		E6DE48217726388A597F3329 /* Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch"; sourceTree = "<group>"; };
+		EEEB8DE0BF3E755EBAFCE14B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C50C9DBED0B859453B22EA /* UIImageView+BeanTransitionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BeanTransitionManager.h"; sourceTree = "<group>"; };
+		F9F8B1A6FA99C4F3F9BE5D0F /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2112DA5C26309A5E3B934924 /* Frameworks */ = {
+		23FB0CACC433F2322912D532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9D623425E4D6C397B27922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458688934D8A3F90858374C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1138B9D698C41F10EC69726 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC56D0F6B68364407ED6D2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		299E4417E4F4325DDE936C3A /* Frameworks */ = {
+		932321DB61F75E5C956577DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47689DFB82C4155A916E65D0 /* Foundation.framework in Frameworks */,
+				1E6196C74F962BB7D532CD06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A8D55EF339829CA9466FD5 /* Frameworks */ = {
+		DAB149717F0BF366C6891AC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B3A060137E74C017349BF3 /* Foundation.framework in Frameworks */,
+				36727D05FDE008F99D88B62D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8BEA3EDFE0F63E13732431D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				949E84082DF47A4B3269F099 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA02D2202028299F9AF9A9A0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				948A3F7A9FB4222F69448D36 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8D5380B2EC648D3366A5C48 /* Frameworks */ = {
+		EDD8D886DAA9DED010AC217A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,204 +143,187 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CB8D0CC501511DB0D98062C = {
+		287BB6CE140D041021EB913D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DE6F8E57BA511215B954EF73 /* Podfile */,
-				E10E872113A94987653E844E /* Development Pods */,
-				1ED2F9177798E909BAE747A9 /* Frameworks */,
-				9E671DE8C4A3C1B6706FDB2D /* Products */,
-				C9954FF470F4103F7BBEE184 /* Targets Support Files */,
+				D06411D966004BCD5EADCD74 /* BeanTransitionManager.h */,
+				1986B0127D455FF7F7FCC0F5 /* BeanTransitionManager.m */,
+				F5C50C9DBED0B859453B22EA /* UIImageView+BeanTransitionManager.h */,
+				9CD80E84E8BAA80B2247672B /* UIImageView+BeanTransitionManager.m */,
 			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		1ED2F9177798E909BAE747A9 /* Frameworks */ = {
+		2E0444FC170B61A458FC07FB /* BeanTransitionManager */ = {
 			isa = PBXGroup;
 			children = (
-				59FB587816625CC3290C997F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2FA6A99460F9BAE8F909F699 /* Pods-BeanTransitionManager */ = {
-			isa = PBXGroup;
-			children = (
-				7F74206FC2901D04D8BA8EBD /* Pods-BeanTransitionManager-acknowledgements.markdown */,
-				60CE682068A361E98520003B /* Pods-BeanTransitionManager-acknowledgements.plist */,
-				A32FCB3E834AEA1629B3A750 /* Pods-BeanTransitionManager-dummy.m */,
-				7791D6D945D8B0E451895684 /* Pods-BeanTransitionManager-environment.h */,
-				1F3DD863B5375801649C7153 /* Pods-BeanTransitionManager-resources.sh */,
-				AB0D26588D5E581A27B75E69 /* Pods-BeanTransitionManager.debug.xcconfig */,
-				37E60DB477BEBC0F6EB7F92C /* Pods-BeanTransitionManager.release.xcconfig */,
-			);
-			name = "Pods-BeanTransitionManager";
-			path = "Target Support Files/Pods-BeanTransitionManager";
-			sourceTree = "<group>";
-		};
-		3A1AD147138818CE4C467C99 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A8DB3894C431CC29742DB32 /* Pods-BeanTransitionManager-BeanTransitionManager.xcconfig */,
-				B3C03972D8F44A9ACBB8C92C /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */,
-				DB023785024AC3DE1E2FB3D7 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */,
-				76D13CCB879EEA1F7BC1202A /* Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch */,
-				0399787AD7F8159FB028991B /* Pods-Tests-BeanTransitionManager.xcconfig */,
-				5AA885A337DD9198E5F13C83 /* Pods-Tests-BeanTransitionManager-Private.xcconfig */,
-				9B2570863ADCDDD825B6949B /* Pods-Tests-BeanTransitionManager-dummy.m */,
-				732FF76AE824F5ECD86F766B /* Pods-Tests-BeanTransitionManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-BeanTransitionManager-BeanTransitionManager";
-			sourceTree = "<group>";
-		};
-		3F14A9C981D78B3E24B5050B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B79A4D0E35C1F983CF5C9C93 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		520316CC69A455E6A03E69A1 /* BeanTransitionManager */ = {
-			isa = PBXGroup;
-			children = (
-				3F14A9C981D78B3E24B5050B /* Pod */,
-				3A1AD147138818CE4C467C99 /* Support Files */,
+				F919D85E66A6A0508E73424A /* Pod */,
+				A6CA01375B041D43D33CF11F /* Support Files */,
 			);
 			name = BeanTransitionManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		551338761E69EB7429A75144 /* Pods-Tests */ = {
+		476F4141D5D0F70F32D89624 /* Pods-BeanTransitionManager */ = {
 			isa = PBXGroup;
 			children = (
-				EF6AA5A726B126D2F25E5283 /* Pods-Tests-acknowledgements.markdown */,
-				B0FC2C9F56971A3E8F5F3DC0 /* Pods-Tests-acknowledgements.plist */,
-				704B5AF534AD4E5B93B468C0 /* Pods-Tests-dummy.m */,
-				6BE367246B4EE666B57D5C3B /* Pods-Tests-environment.h */,
-				9354B7868E01825B9459C83F /* Pods-Tests-resources.sh */,
-				6FC476C34A79A41652A13678 /* Pods-Tests.debug.xcconfig */,
-				EEF7B6E02DD8A19EA855DDAB /* Pods-Tests.release.xcconfig */,
+				11CA3EF073115EF0E907198C /* Pods-BeanTransitionManager-acknowledgements.markdown */,
+				B69CB0CD03A67521757D809A /* Pods-BeanTransitionManager-acknowledgements.plist */,
+				7158ECCB73F1B39F2779E279 /* Pods-BeanTransitionManager-dummy.m */,
+				6C84F376EF0BEC7070D81C48 /* Pods-BeanTransitionManager-environment.h */,
+				72BA0BDD3B6527B5E61CB0E8 /* Pods-BeanTransitionManager-resources.sh */,
+				4882CF62648199C7FED1759F /* Pods-BeanTransitionManager.debug.xcconfig */,
+				7E0C41D7633960BAEF5121BF /* Pods-BeanTransitionManager.release.xcconfig */,
+			);
+			name = "Pods-BeanTransitionManager";
+			path = "Target Support Files/Pods-BeanTransitionManager";
+			sourceTree = "<group>";
+		};
+		4A8474A29F8EB4D01B5C82A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F27BCDCE49EDD85D0C53A7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5526452424709107249321DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E0444FC170B61A458FC07FB /* BeanTransitionManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		765604B3A4FE889E135B0F7A = {
+			isa = PBXGroup;
+			children = (
+				63F50632D2672B80999C7397 /* Podfile */,
+				5526452424709107249321DA /* Development Pods */,
+				4A8474A29F8EB4D01B5C82A6 /* Frameworks */,
+				B9B1E5C10CD6A76A3F1DB3F3 /* Products */,
+				B027A8DD38CBE07C554F7E3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F48558733C5F55182360E8 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B529AA48008BF858535D0EB6 /* Pods-Tests-acknowledgements.markdown */,
+				F9F8B1A6FA99C4F3F9BE5D0F /* Pods-Tests-acknowledgements.plist */,
+				C45A6BF565A9EECBB86C0C3B /* Pods-Tests-dummy.m */,
+				09AE489EC46AA82EA3A10556 /* Pods-Tests-environment.h */,
+				2D6E41A75F84FB3B773684BE /* Pods-Tests-resources.sh */,
+				440520B89AAFB0FFF4AB8617 /* Pods-Tests.debug.xcconfig */,
+				8457A4EA20E14758B8DE610D /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		59FB587816625CC3290C997F /* iOS */ = {
+		A6CA01375B041D43D33CF11F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8FB994EEA0F4C6477DCDB442 /* Foundation.framework */,
+				C7E2C0ADE0723E5804BA6108 /* Pods-BeanTransitionManager-BeanTransitionManager.xcconfig */,
+				0A08D3F1D6AD0564110EBCAF /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */,
+				C4420999122DA5D286B1B30A /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */,
+				E6DE48217726388A597F3329 /* Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch */,
+				92D1E1BB6823C2D3B9EDC4B2 /* Pods-Tests-BeanTransitionManager.xcconfig */,
+				1402C39B199DDF03EAE6390B /* Pods-Tests-BeanTransitionManager-Private.xcconfig */,
+				06329F375D52DD2D28F40C5B /* Pods-Tests-BeanTransitionManager-dummy.m */,
+				825458910CCA7F300A1960A1 /* Pods-Tests-BeanTransitionManager-prefix.pch */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-BeanTransitionManager-BeanTransitionManager";
 			sourceTree = "<group>";
 		};
-		9E671DE8C4A3C1B6706FDB2D /* Products */ = {
+		B027A8DD38CBE07C554F7E3E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				13BE3A23F04459E67CEB5C9D /* BeanTransitionManager.bundle */,
-				5EBAF3C9764D3E8C91EB87ED /* BeanTransitionManager.bundle */,
-				978FFDCEEF9919836DF1BF9B /* libPods-BeanTransitionManager.a */,
-				23F24241008A44992CFE98A2 /* libPods-BeanTransitionManager-BeanTransitionManager.a */,
-				40B269BC4BE0D2B6F0072F8E /* libPods-Tests.a */,
-				5936FFEAAE88009688A19ACE /* libPods-Tests-BeanTransitionManager.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B79A4D0E35C1F983CF5C9C93 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				50329B63FBF5F3614D2F4881 /* BeanTransitionManager.h */,
-				5C06922B3DB4C93DE046B2F8 /* BeanTransitionManager.m */,
-				026D2D59380AAC60E0CFE94E /* UIImageView+BeanTransitionManager.h */,
-				A76FFA023B14DAD49043988A /* UIImageView+BeanTransitionManager.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C9954FF470F4103F7BBEE184 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2FA6A99460F9BAE8F909F699 /* Pods-BeanTransitionManager */,
-				551338761E69EB7429A75144 /* Pods-Tests */,
+				476F4141D5D0F70F32D89624 /* Pods-BeanTransitionManager */,
+				89F48558733C5F55182360E8 /* Pods-Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E10E872113A94987653E844E /* Development Pods */ = {
+		B9B1E5C10CD6A76A3F1DB3F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				520316CC69A455E6A03E69A1 /* BeanTransitionManager */,
+				A985C9804EC9094F7103E257 /* BeanTransitionManager.bundle */,
+				AB2F140C270D10929E802AFC /* BeanTransitionManager.bundle */,
+				A48F3B830B2B7059AAAF31F8 /* libPods-BeanTransitionManager.a */,
+				AB1792C6EED39CD71BFF2587 /* libPods-BeanTransitionManager-BeanTransitionManager.a */,
+				EEEB8DE0BF3E755EBAFCE14B /* libPods-Tests.a */,
+				BE505509FAA48348B5A6A791 /* libPods-Tests-BeanTransitionManager.a */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F27BCDCE49EDD85D0C53A7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				113456BEAE9BFA9869B2AD1A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F919D85E66A6A0508E73424A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				287BB6CE140D041021EB913D /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		00EB2ACE84422050406BD0F9 /* Headers */ = {
+		128B64F49B812B68B7F8A57A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C51B33FE5D6561CDF64FD3F8 /* BeanTransitionManager.h in Headers */,
-				B64DC73F13B79A856D7CD1DB /* UIImageView+BeanTransitionManager.h in Headers */,
+				9BA7751D6CA696131D0F7F3E /* BeanTransitionManager.h in Headers */,
+				BEBE89BBA7FDECB84F6F3CF9 /* UIImageView+BeanTransitionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48BA88413309B89ED8C93D66 /* Headers */ = {
+		B472F24E8A22FF1880C0B23F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EFAFBC0D5D99F80DD5F4E7A /* BeanTransitionManager.h in Headers */,
-				31903609B8FB50F2FC2112FE /* UIImageView+BeanTransitionManager.h in Headers */,
+				E87B3957C33B9EE3FA12A253 /* BeanTransitionManager.h in Headers */,
+				5558FB9A65B96F69F92C1011 /* UIImageView+BeanTransitionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CA55D1B7346C4F5E9C9D459 /* Pods-Tests */ = {
+		5AC044C9A570D3D5461E069B /* Pods-BeanTransitionManager-BeanTransitionManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91B92514954170604345E254 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 81CD89B53DFE1615BFF15D0B /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager" */;
 			buildPhases = (
-				EA67B84F00FC149B63C2BA9F /* Sources */,
-				78A8D55EF339829CA9466FD5 /* Frameworks */,
+				01E60CB5A18CEAF8881A4A4D /* Sources */,
+				932321DB61F75E5C956577DB /* Frameworks */,
+				B472F24E8A22FF1880C0B23F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				406B3644938810E8B5F50914 /* PBXTargetDependency */,
+				7873827E3B4BA53C9FBE4C4F /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 40B269BC4BE0D2B6F0072F8E /* libPods-Tests.a */;
+			name = "Pods-BeanTransitionManager-BeanTransitionManager";
+			productName = "Pods-BeanTransitionManager-BeanTransitionManager";
+			productReference = AB1792C6EED39CD71BFF2587 /* libPods-BeanTransitionManager-BeanTransitionManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1FD35318E116E52753F76C90 /* Pods-Tests-BeanTransitionManager */ = {
+		66C8475BA72F35C464F2A18A /* Pods-Tests-BeanTransitionManager-BeanTransitionManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D1414BD36E4DD3DC36AAF6E /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager" */;
+			buildConfigurationList = B8874538A4EF6E81989AC5F6 /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager-BeanTransitionManager" */;
 			buildPhases = (
-				DC68A69B12BBA5DA73B01804 /* Sources */,
-				EA02D2202028299F9AF9A9A0 /* Frameworks */,
-				00EB2ACE84422050406BD0F9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F80E78CE37F7DA185E804637 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-BeanTransitionManager";
-			productName = "Pods-Tests-BeanTransitionManager";
-			productReference = 5936FFEAAE88009688A19ACE /* libPods-Tests-BeanTransitionManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		2FC6B00861E04F4F039B25D4 /* Pods-Tests-BeanTransitionManager-BeanTransitionManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F94C3A239F729EC9ACD97402 /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager-BeanTransitionManager" */;
-			buildPhases = (
-				37A1C0A1EF77E64A11DE32B1 /* Sources */,
-				2112DA5C26309A5E3B934924 /* Frameworks */,
-				6DB2CF13B6A087528FD318EA /* Resources */,
+				B381E919C7B77FABEBDEA167 /* Sources */,
+				EDD8D886DAA9DED010AC217A /* Frameworks */,
+				251CC9E22B7D3CBD835CFCA2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -348,51 +331,50 @@
 			);
 			name = "Pods-Tests-BeanTransitionManager-BeanTransitionManager";
 			productName = "Pods-Tests-BeanTransitionManager-BeanTransitionManager";
-			productReference = 13BE3A23F04459E67CEB5C9D /* BeanTransitionManager.bundle */;
+			productReference = A985C9804EC9094F7103E257 /* BeanTransitionManager.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		7EBCFC9443145EAF570E3340 /* Pods-BeanTransitionManager */ = {
+		7D47525157BEA92D8087D1D5 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68453F4F67466B7175352C42 /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager" */;
+			buildConfigurationList = 516F87F609D643D8D624252A /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				8A1B9D417AB6F9D082E7B439 /* Sources */,
-				B8BEA3EDFE0F63E13732431D /* Frameworks */,
+				AD8726B1FF3AC9A1A471D176 /* Sources */,
+				458688934D8A3F90858374C1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				10690B4A897B158FA80E2E3D /* PBXTargetDependency */,
+				6F14D5EF699A8DCD8BCC6E9E /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = EEEB8DE0BF3E755EBAFCE14B /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A46962A75D74393C15C6A6D0 /* Pods-BeanTransitionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58552A955805F78DC1337387 /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager" */;
+			buildPhases = (
+				5CDF503A841E8BE23BC05479 /* Sources */,
+				23FB0CACC433F2322912D532 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F13AE84B4242296C22BEE69 /* PBXTargetDependency */,
 			);
 			name = "Pods-BeanTransitionManager";
 			productName = "Pods-BeanTransitionManager";
-			productReference = 978FFDCEEF9919836DF1BF9B /* libPods-BeanTransitionManager.a */;
+			productReference = A48F3B830B2B7059AAAF31F8 /* libPods-BeanTransitionManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A082B0D6DC7612B3698D5668 /* Pods-BeanTransitionManager-BeanTransitionManager */ = {
+		D9E7531E77BA31D11DED8196 /* Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDC6EE6C1BBF0B1B3F5C3DFD /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager" */;
+			buildConfigurationList = A547B80D65C8E54610B9AA8D /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager" */;
 			buildPhases = (
-				EA18BDF69FB7783D6D499292 /* Sources */,
-				299E4417E4F4325DDE936C3A /* Frameworks */,
-				48BA88413309B89ED8C93D66 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				31F7F9E6228B93F368EFA8FD /* PBXTargetDependency */,
-			);
-			name = "Pods-BeanTransitionManager-BeanTransitionManager";
-			productName = "Pods-BeanTransitionManager-BeanTransitionManager";
-			productReference = 23F24241008A44992CFE98A2 /* libPods-BeanTransitionManager-BeanTransitionManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		DB74E68F635A8A51852B82D2 /* Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FDB618A777BD6D502DD51CF /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager" */;
-			buildPhases = (
-				FD3291EE040FB94CD5BD63E3 /* Sources */,
-				F8D5380B2EC648D3366A5C48 /* Frameworks */,
-				550634A5A06E2AFB1F85100C /* Resources */,
+				22DE50087CA3C9591D39557A /* Sources */,
+				8BC56D0F6B68364407ED6D2E /* Frameworks */,
+				AE0380DB9F05EC5E6E060F41 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -400,48 +382,66 @@
 			);
 			name = "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager";
 			productName = "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager";
-			productReference = 5EBAF3C9764D3E8C91EB87ED /* BeanTransitionManager.bundle */;
+			productReference = AB2F140C270D10929E802AFC /* BeanTransitionManager.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		FF2C1A06B793F26FD355CD74 /* Pods-Tests-BeanTransitionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FB6E266240CF223E784709 /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager" */;
+			buildPhases = (
+				B2193EF9E2C73635B7B3755A /* Sources */,
+				DAB149717F0BF366C6891AC2 /* Frameworks */,
+				128B64F49B812B68B7F8A57A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31407BE133E2B19ABBB8849B /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-BeanTransitionManager";
+			productName = "Pods-Tests-BeanTransitionManager";
+			productReference = BE505509FAA48348B5A6A791 /* libPods-Tests-BeanTransitionManager.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		38623B6D59B7815B04642BD7 /* Project object */ = {
+		070AC67D446791CACE692F71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = BACBB5E55ACE9C2E9DE7D821 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 23FD42F700E4E5816426F98D /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0CB8D0CC501511DB0D98062C;
-			productRefGroup = 9E671DE8C4A3C1B6706FDB2D /* Products */;
+			mainGroup = 765604B3A4FE889E135B0F7A;
+			productRefGroup = B9B1E5C10CD6A76A3F1DB3F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EBCFC9443145EAF570E3340 /* Pods-BeanTransitionManager */,
-				A082B0D6DC7612B3698D5668 /* Pods-BeanTransitionManager-BeanTransitionManager */,
-				DB74E68F635A8A51852B82D2 /* Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager */,
-				0CA55D1B7346C4F5E9C9D459 /* Pods-Tests */,
-				1FD35318E116E52753F76C90 /* Pods-Tests-BeanTransitionManager */,
-				2FC6B00861E04F4F039B25D4 /* Pods-Tests-BeanTransitionManager-BeanTransitionManager */,
+				A46962A75D74393C15C6A6D0 /* Pods-BeanTransitionManager */,
+				5AC044C9A570D3D5461E069B /* Pods-BeanTransitionManager-BeanTransitionManager */,
+				D9E7531E77BA31D11DED8196 /* Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager */,
+				7D47525157BEA92D8087D1D5 /* Pods-Tests */,
+				FF2C1A06B793F26FD355CD74 /* Pods-Tests-BeanTransitionManager */,
+				66C8475BA72F35C464F2A18A /* Pods-Tests-BeanTransitionManager-BeanTransitionManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		550634A5A06E2AFB1F85100C /* Resources */ = {
+		251CC9E22B7D3CBD835CFCA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DB2CF13B6A087528FD318EA /* Resources */ = {
+		AE0380DB9F05EC5E6E060F41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,50 +451,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37A1C0A1EF77E64A11DE32B1 /* Sources */ = {
+		01E60CB5A18CEAF8881A4A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE5D89D2D4B5250D1B8A0DB /* BeanTransitionManager.m in Sources */,
+				02C2879A8C0D18EFA9364490 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m in Sources */,
+				9888D69D0E7D11FEA9EDCFCC /* UIImageView+BeanTransitionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DE50087CA3C9591D39557A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A1B9D417AB6F9D082E7B439 /* Sources */ = {
+		5CDF503A841E8BE23BC05479 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4AB984D1829C5A521E69BAC /* Pods-BeanTransitionManager-dummy.m in Sources */,
+				B5A5129A7A7FE79D1CCB81BF /* Pods-BeanTransitionManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC68A69B12BBA5DA73B01804 /* Sources */ = {
+		AD8726B1FF3AC9A1A471D176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C150E4A42E5216BEF92FC89F /* BeanTransitionManager.m in Sources */,
-				C0C4AF2A3CA27112B6C88310 /* Pods-Tests-BeanTransitionManager-dummy.m in Sources */,
-				CC5502901B99F2583AC94F3B /* UIImageView+BeanTransitionManager.m in Sources */,
+				4ADD88611CA41241D0451CE0 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA18BDF69FB7783D6D499292 /* Sources */ = {
+		B2193EF9E2C73635B7B3755A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D8AD160156825D653FA83B /* BeanTransitionManager.m in Sources */,
-				9D9BBB7E3A0BCDA225C956DA /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m in Sources */,
-				005BF13817ED6E4F516255BE /* UIImageView+BeanTransitionManager.m in Sources */,
+				0CC57B512E9A511DAE120432 /* BeanTransitionManager.m in Sources */,
+				DC6FE81BF5157EECBE55F5F5 /* Pods-Tests-BeanTransitionManager-dummy.m in Sources */,
+				908465BDFEA1040372B42AF8 /* UIImageView+BeanTransitionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA67B84F00FC149B63C2BA9F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FA32462E804BC8432B6B878 /* Pods-Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD3291EE040FB94CD5BD63E3 /* Sources */ = {
+		B381E919C7B77FABEBDEA167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -504,106 +504,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10690B4A897B158FA80E2E3D /* PBXTargetDependency */ = {
+		0F13AE84B4242296C22BEE69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BeanTransitionManager-BeanTransitionManager";
-			target = A082B0D6DC7612B3698D5668 /* Pods-BeanTransitionManager-BeanTransitionManager */;
-			targetProxy = 0A7CAE4022B226AEBB87CB07 /* PBXContainerItemProxy */;
+			target = 5AC044C9A570D3D5461E069B /* Pods-BeanTransitionManager-BeanTransitionManager */;
+			targetProxy = 9D9315386E460D2EE978EB3D /* PBXContainerItemProxy */;
 		};
-		31F7F9E6228B93F368EFA8FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager";
-			target = DB74E68F635A8A51852B82D2 /* Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager */;
-			targetProxy = EEE1BE65221B68EF6C313E5D /* PBXContainerItemProxy */;
-		};
-		406B3644938810E8B5F50914 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-BeanTransitionManager";
-			target = 1FD35318E116E52753F76C90 /* Pods-Tests-BeanTransitionManager */;
-			targetProxy = F1A90F45F7430DE53470DEDF /* PBXContainerItemProxy */;
-		};
-		F80E78CE37F7DA185E804637 /* PBXTargetDependency */ = {
+		31407BE133E2B19ABBB8849B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-BeanTransitionManager-BeanTransitionManager";
-			target = 2FC6B00861E04F4F039B25D4 /* Pods-Tests-BeanTransitionManager-BeanTransitionManager */;
-			targetProxy = 6CDF6D97F1AA61403EA0A790 /* PBXContainerItemProxy */;
+			target = 66C8475BA72F35C464F2A18A /* Pods-Tests-BeanTransitionManager-BeanTransitionManager */;
+			targetProxy = 59941E4028C31A3ACE3FD981 /* PBXContainerItemProxy */;
+		};
+		6F14D5EF699A8DCD8BCC6E9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-BeanTransitionManager";
+			target = FF2C1A06B793F26FD355CD74 /* Pods-Tests-BeanTransitionManager */;
+			targetProxy = C023FAC56C00884305D9393D /* PBXContainerItemProxy */;
+		};
+		7873827E3B4BA53C9FBE4C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager";
+			target = D9E7531E77BA31D11DED8196 /* Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager */;
+			targetProxy = 64D406265ABD27302AC7A924 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ABAD1C60FB5A611A2F671A9 /* Debug */ = {
+		1ADC0793598A7EB1053B0C71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3C03972D8F44A9ACBB8C92C /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeanTransitionManager-BeanTransitionManager/Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		54557DA5BCB1C035DD7A635B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BeanTransitionManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6FF496CF84EF791E1B4E7396 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BeanTransitionManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		84F78EBD22F4ACADE49F7FBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3C03972D8F44A9ACBB8C92C /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeanTransitionManager-BeanTransitionManager/Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		854FFA904D7D4467E3B1F88B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AA885A337DD9198E5F13C83 /* Pods-Tests-BeanTransitionManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A299CD790F7CA7EB192EBA99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AA885A337DD9198E5F13C83 /* Pods-Tests-BeanTransitionManager-Private.xcconfig */;
+			baseConfigurationReference = 1402C39B199DDF03EAE6390B /* Pods-Tests-BeanTransitionManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-prefix.pch";
@@ -617,41 +547,23 @@
 			};
 			name = Release;
 		};
-		A688CAFA590F076D44C497C0 /* Release */ = {
+		214493BF354B94A62158F617 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1402C39B199DDF03EAE6390B /* Pods-Tests-BeanTransitionManager-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		AB1A1F9F0E35A798103ADDD8 /* Debug */ = {
+		235515406B4BC6C9AA7251BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -690,7 +602,7 @@
 			};
 			name = Debug;
 		};
-		B20B86E6F48C3CC1C80AAF8F /* Release */ = {
+		2A9AA29863E75F289414CE14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -701,41 +613,58 @@
 			};
 			name = Release;
 		};
-		B4BD4FB1B95FFDDABDE555A8 /* Debug */ = {
+		554FDEF673FF50FB0AA1D115 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB0D26588D5E581A27B75E69 /* Pods-BeanTransitionManager.debug.xcconfig */;
+			baseConfigurationReference = 0A08D3F1D6AD0564110EBCAF /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeanTransitionManager-BeanTransitionManager/Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		BE070578C4E056C1FE40B926 /* Debug */ = {
+		9877459B2882B11F6706B001 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC476C34A79A41652A13678 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BeanTransitionManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A52355C395543ED8D10F983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BeanTransitionManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		C60E813F99A23562AA90F536 /* Release */ = {
+		BB3BBBB3C3C6E8991FD4AD60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E60DB477BEBC0F6EB7F92C /* Pods-BeanTransitionManager.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BeanTransitionManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BBAE193D2A07FCCD51FE5F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0C41D7633960BAEF5121BF /* Pods-BeanTransitionManager.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -749,20 +678,91 @@
 			};
 			name = Release;
 		};
-		E30D1B95705606C46F617B5D /* Debug */ = {
+		BD96E915D025CE2E9DA8E07D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440520B89AAFB0FFF4AB8617 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BeanTransitionManager;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		E74599574B1326B9CBF648DE /* Release */ = {
+		BE3223D95D977C06C0D9898A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF7B6E02DD8A19EA855DDAB /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 4882CF62648199C7FED1759F /* Pods-BeanTransitionManager.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D20EF748C4A368697042311A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A08D3F1D6AD0564110EBCAF /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BeanTransitionManager-BeanTransitionManager/Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D230B426509BCD813707559D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF1166C3A83FEA6570DF607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8457A4EA20E14758B8DE610D /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -779,70 +779,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D1414BD36E4DD3DC36AAF6E /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager" */ = {
+		23FD42F700E4E5816426F98D /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				854FFA904D7D4467E3B1F88B /* Debug */,
-				A299CD790F7CA7EB192EBA99 /* Release */,
+				235515406B4BC6C9AA7251BB /* Debug */,
+				D230B426509BCD813707559D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FDB618A777BD6D502DD51CF /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager" */ = {
+		516F87F609D643D8D624252A /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E30D1B95705606C46F617B5D /* Debug */,
-				6FF496CF84EF791E1B4E7396 /* Release */,
+				BD96E915D025CE2E9DA8E07D /* Debug */,
+				DAF1166C3A83FEA6570DF607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68453F4F67466B7175352C42 /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager" */ = {
+		58552A955805F78DC1337387 /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4BD4FB1B95FFDDABDE555A8 /* Debug */,
-				C60E813F99A23562AA90F536 /* Release */,
+				BE3223D95D977C06C0D9898A /* Debug */,
+				BBAE193D2A07FCCD51FE5F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B92514954170604345E254 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		81CD89B53DFE1615BFF15D0B /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE070578C4E056C1FE40B926 /* Debug */,
-				E74599574B1326B9CBF648DE /* Release */,
+				D20EF748C4A368697042311A /* Debug */,
+				554FDEF673FF50FB0AA1D115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BACBB5E55ACE9C2E9DE7D821 /* Build configuration list for PBXProject "Pods" */ = {
+		A547B80D65C8E54610B9AA8D /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager-BeanTransitionManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB1A1F9F0E35A798103ADDD8 /* Debug */,
-				A688CAFA590F076D44C497C0 /* Release */,
+				A52355C395543ED8D10F983B /* Debug */,
+				2A9AA29863E75F289414CE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDC6EE6C1BBF0B1B3F5C3DFD /* Build configuration list for PBXNativeTarget "Pods-BeanTransitionManager-BeanTransitionManager" */ = {
+		B8874538A4EF6E81989AC5F6 /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager-BeanTransitionManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ABAD1C60FB5A611A2F671A9 /* Debug */,
-				84F78EBD22F4ACADE49F7FBF /* Release */,
+				BB3BBBB3C3C6E8991FD4AD60 /* Debug */,
+				9877459B2882B11F6706B001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F94C3A239F729EC9ACD97402 /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager-BeanTransitionManager" */ = {
+		E7FB6E266240CF223E784709 /* Build configuration list for PBXNativeTarget "Pods-Tests-BeanTransitionManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54557DA5BCB1C035DD7A635B /* Debug */,
-				B20B86E6F48C3CC1C80AAF8F /* Release */,
+				214493BF354B94A62158F617 /* Debug */,
+				1ADC0793598A7EB1053B0C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 38623B6D59B7815B04642BD7 /* Project object */;
+	rootObject = 070AC67D446791CACE692F71 /* Project object */;
 }

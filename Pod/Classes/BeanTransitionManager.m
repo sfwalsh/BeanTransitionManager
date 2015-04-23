@@ -47,6 +47,14 @@ static float kDefaultTransitionLength   = 0.5;
 }
 
 
+#pragma mark - setters
+- (void)setExpandingImageView:(UIImageView *)expandingImageView
+{
+    _expandingImageView = expandingImageView;
+    self.delegate.delegateContentImageView.image= _expandingImageView.image;
+}
+
+
 #pragma mark UIViewControllerAnimatedTransitioning
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
@@ -107,7 +115,6 @@ static float kDefaultTransitionLength   = 0.5;
     }
     
     [UIView animateWithDuration:0.25 animations:^{
-        
         snapshotView.alpha = 0;
     } completion:^(BOOL finished) {
         [snapshotView removeFromSuperview];
