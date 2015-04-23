@@ -1,0 +1,14 @@
+PODS:
+  - BeanTransitionManager (0.1.0)
+
+DEPENDENCIES:
+  - BeanTransitionManager (from `../`)
+
+EXTERNAL SOURCES:
+  BeanTransitionManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BeanTransitionManager: 485cf44abe62a15a960b51e658ab22bad6b3f37e
+
+COCOAPODS: 0.36.3
