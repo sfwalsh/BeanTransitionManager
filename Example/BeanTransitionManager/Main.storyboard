@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qG1-lU-br8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ziu-tY-c88">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My Photos-->
         <scene sceneID="XTd-86-02f">
             <objects>
                 <viewController id="qG1-lU-br8" customClass="BTMViewController" sceneMemberID="viewController">
@@ -18,14 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="clK-Ui-wX7">
-                                <rect key="frame" x="230" y="229" width="140" height="141"/>
-                                <color key="backgroundColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="WcA-5K-mm5"/>
-                                    <constraint firstAttribute="height" constant="141" id="Y5c-6W-ZDS"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEM-8O-gFW">
                                 <rect key="frame" x="282" y="410" width="37" height="30"/>
                                 <constraints>
@@ -33,12 +25,21 @@
                                     <constraint firstAttribute="height" constant="30" id="Mjq-Ip-kN2"/>
                                 </constraints>
                                 <state key="normal" title="Grow">
+                                    <color key="titleColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YTn-4a-Gij" kind="show" identifier="showDetail" id="4XA-KQ-hy1"/>
+                                    <segue destination="YTn-4a-Gij" kind="presentation" identifier="showDetail" id="4XA-KQ-hy1"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flowers" translatesAutoresizingMaskIntoConstraints="NO" id="clK-Ui-wX7">
+                                <rect key="frame" x="230" y="229" width="140" height="141"/>
+                                <color key="backgroundColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="WcA-5K-mm5"/>
+                                    <constraint firstAttribute="height" constant="141" id="Y5c-6W-ZDS"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -48,13 +49,14 @@
                             <constraint firstItem="KEM-8O-gFW" firstAttribute="top" secondItem="clK-Ui-wX7" secondAttribute="bottom" constant="40" id="rbf-rh-KeZ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="My Photos" id="FPk-2u-pnt"/>
                     <connections>
                         <outlet property="expandingImageView" destination="clK-Ui-wX7" id="u61-QZ-szh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOW-98-TCC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="365" y="351"/>
+            <point key="canvasLocation" x="1177" y="351"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="fMY-fg-eCb">
@@ -69,10 +71,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1m-e7-Htz">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="180"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="450"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t7o-0f-s4P">
-                                        <rect key="frame" x="228" y="19" width="140" height="141"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t7o-0f-s4P">
+                                        <rect key="frame" x="228" y="154" width="140" height="141"/>
                                         <color key="backgroundColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="141" id="Gbn-sp-FjD"/>
@@ -86,37 +88,63 @@
                                     <constraint firstAttribute="centerY" secondItem="t7o-0f-s4P" secondAttribute="centerY" id="lpB-p6-jIR"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gF2-en-gvt">
-                                <rect key="frame" x="275" y="550" width="50" height="30"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RnK-p5-H7f">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="eOr-RV-dhW"/>
-                                    <constraint firstAttribute="width" constant="50" id="fZu-ao-bhC"/>
+                                    <constraint firstAttribute="height" constant="64" id="vrE-5G-foU"/>
                                 </constraints>
-                                <state key="normal" title="Shrink">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="didTapShrinkButton:" destination="YTn-4a-Gij" eventType="touchUpInside" id="yeP-mf-Q1u"/>
-                                </connections>
-                            </button>
+                                <items>
+                                    <navigationItem title="Photo" id="4sw-iF-u0T">
+                                        <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="BNH-IU-1Le">
+                                            <color key="tintColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="didTapShrinkButton:" destination="YTn-4a-Gij" id="tVv-e3-5Pe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="gF2-en-gvt" secondAttribute="centerX" id="Luc-H8-WEh"/>
                             <constraint firstItem="M1m-e7-Htz" firstAttribute="leading" secondItem="3jP-og-pNs" secondAttribute="leading" id="NJj-u5-6HC"/>
-                            <constraint firstItem="Tbg-UA-8xB" firstAttribute="top" secondItem="gF2-en-gvt" secondAttribute="bottom" constant="20" id="SZC-gs-SJA"/>
+                            <constraint firstItem="RnK-p5-H7f" firstAttribute="top" secondItem="gbe-Fp-cUc" secondAttribute="bottom" constant="-20" id="Nec-mf-rfW"/>
+                            <constraint firstItem="RnK-p5-H7f" firstAttribute="leading" secondItem="3jP-og-pNs" secondAttribute="leading" id="P5Q-RH-uq1"/>
                             <constraint firstAttribute="trailing" secondItem="M1m-e7-Htz" secondAttribute="trailing" id="WQW-t1-esd"/>
-                            <constraint firstItem="M1m-e7-Htz" firstAttribute="height" secondItem="3jP-og-pNs" secondAttribute="height" multiplier="0.3" id="axQ-16-yGX"/>
+                            <constraint firstAttribute="trailing" secondItem="RnK-p5-H7f" secondAttribute="trailing" id="a8C-Se-6bK"/>
+                            <constraint firstItem="M1m-e7-Htz" firstAttribute="height" secondItem="3jP-og-pNs" secondAttribute="height" multiplier="0.75" id="axQ-16-yGX"/>
                             <constraint firstItem="M1m-e7-Htz" firstAttribute="top" secondItem="3jP-og-pNs" secondAttribute="top" id="fEC-qi-20i"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="imageView" destination="t7o-0f-s4P" id="fva-E7-fOX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZHc-Wh-VUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1145" y="351"/>
+            <point key="canvasLocation" x="1957" y="351"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aE5-EH-P36">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ziu-tY-c88" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HfG-R5-49H">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qG1-lU-br8" kind="relationship" relationship="rootViewController" id="Ikz-EE-K91"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7j-XT-7Nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="351"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="flowers" width="500" height="343"/>
+    </resources>
 </document>

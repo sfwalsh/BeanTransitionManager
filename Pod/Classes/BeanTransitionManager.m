@@ -48,10 +48,10 @@ static float kDefaultTransitionLength   = 0.5;
 
 
 #pragma mark - setters
-- (void)setExpandingImageView:(UIImageView *)expandingImageView
+- (void)setDelegate:(id<BeanTransitionManagerDelegate>)delegate
 {
-    _expandingImageView = expandingImageView;
-    self.delegate.delegateContentImageView.image= _expandingImageView.image;
+    _delegate = delegate;
+    _delegate.delegateContentImageView.image = _expandingImageView.image;
 }
 
 
