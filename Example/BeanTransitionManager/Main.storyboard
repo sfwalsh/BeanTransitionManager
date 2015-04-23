@@ -72,7 +72,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="180"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t7o-0f-s4P">
-                                        <rect key="frame" x="230" y="19" width="140" height="141"/>
+                                        <rect key="frame" x="228" y="19" width="140" height="141"/>
                                         <color key="backgroundColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="141" id="Gbn-sp-FjD"/>
@@ -82,7 +82,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="t7o-0f-s4P" secondAttribute="centerX" id="YVG-Pi-ogo"/>
+                                    <constraint firstAttribute="centerX" secondItem="t7o-0f-s4P" secondAttribute="centerX" constant="2" id="YVG-Pi-ogo"/>
                                     <constraint firstAttribute="centerY" secondItem="t7o-0f-s4P" secondAttribute="centerY" id="lpB-p6-jIR"/>
                                 </constraints>
                             </view>
