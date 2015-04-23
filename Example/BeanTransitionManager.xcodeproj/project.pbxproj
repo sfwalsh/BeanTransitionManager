@@ -22,6 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		A4C1079466C5D7F84AECB0AF /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77A3739DDC3F3CF21241F3 /* libPods-Tests.a */; };
+		C699F8651AE9AC870051F646 /* BTMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C699F8641AE9AC870051F646 /* BTMPhoto.m */; };
+		C699F8681AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C699F8671AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.m */; };
 		C6BBE46C1AE994A000412AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BBE46B1AE994A000412AF0 /* Main.storyboard */; };
 		C6BBE46F1AE9955900412AF0 /* BTMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE46E1AE9955900412AF0 /* BTMDetailViewController.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,10 @@
 		6DC4C4CF80C4DC39A508E76D /* BeanTransitionManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BeanTransitionManager.podspec; path = ../BeanTransitionManager.podspec; sourceTree = "<group>"; };
 		87BC728A92D555D501474240 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D8F2FCF4B719B7E9BA362A9 /* libPods-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C699F8631AE9AC870051F646 /* BTMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMPhoto.h; sourceTree = "<group>"; };
+		C699F8641AE9AC870051F646 /* BTMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMPhoto.m; sourceTree = "<group>"; };
+		C699F8661AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMPhotoCellCollectionViewCell.h; sourceTree = "<group>"; };
+		C699F8671AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMPhotoCellCollectionViewCell.m; sourceTree = "<group>"; };
 		C6BBE46B1AE994A000412AF0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C6BBE46D1AE9955900412AF0 /* BTMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMDetailViewController.h; sourceTree = "<group>"; };
 		C6BBE46E1AE9955900412AF0 /* BTMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMDetailViewController.m; sourceTree = "<group>"; };
@@ -147,10 +153,8 @@
 				C6BBE46B1AE994A000412AF0 /* Main.storyboard */,
 				6003F59C195388D20070C39A /* BTMAppDelegate.h */,
 				6003F59D195388D20070C39A /* BTMAppDelegate.m */,
-				C6BBE46D1AE9955900412AF0 /* BTMDetailViewController.h */,
-				C6BBE46E1AE9955900412AF0 /* BTMDetailViewController.m */,
-				6003F5A5195388D20070C39A /* BTMViewController.h */,
-				6003F5A6195388D20070C39A /* BTMViewController.m */,
+				C699F8691AE9AC9B0051F646 /* Models */,
+				C699F86A1AE9ACA30051F646 /* Views */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -195,6 +199,44 @@
 				FCB7D95E9CBC741369D38A60 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C699F8691AE9AC9B0051F646 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C699F8631AE9AC870051F646 /* BTMPhoto.h */,
+				C699F8641AE9AC870051F646 /* BTMPhoto.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C699F86A1AE9ACA30051F646 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C699F86C1AE9ACB00051F646 /* CollectionViewCells */,
+				C699F86B1AE9ACAA0051F646 /* View Controllers */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C699F86B1AE9ACAA0051F646 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6BBE46D1AE9955900412AF0 /* BTMDetailViewController.h */,
+				C6BBE46E1AE9955900412AF0 /* BTMDetailViewController.m */,
+				6003F5A5195388D20070C39A /* BTMViewController.h */,
+				6003F5A6195388D20070C39A /* BTMViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C699F86C1AE9ACB00051F646 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C699F8661AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.h */,
+				C699F8671AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.m */,
+			);
+			name = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +406,8 @@
 			files = (
 				6003F59E195388D20070C39A /* BTMAppDelegate.m in Sources */,
 				C6BBE46F1AE9955900412AF0 /* BTMDetailViewController.m in Sources */,
+				C699F8681AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.m in Sources */,
+				C699F8651AE9AC870051F646 /* BTMPhoto.m in Sources */,
 				6003F5A7195388D20070C39A /* BTMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

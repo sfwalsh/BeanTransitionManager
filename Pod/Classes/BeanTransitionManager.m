@@ -46,6 +46,17 @@ static float kDefaultTransitionLength   = 0.5;
     return [self initWithExpandingImageView:expandingImageView andTransitionDuration:kDefaultTransitionLength];
 }
 
+- (instancetype)initWithTransitionDuration:(NSTimeInterval)duration
+{
+    return [self initWithExpandingImageView:[UIImageView new] andTransitionDuration:duration];
+}
+
+
+#pragma mark - actions
+- (void)setExpandingImageView:(UIImageView *)expandingImageView
+{
+    _expandingImageView = expandingImageView;
+}
 
 #pragma mark - setters
 - (void)setDelegate:(id<BeanTransitionManagerDelegate>)delegate

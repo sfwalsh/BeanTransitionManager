@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "BeanTransitionManager.h"
+#import "BTMPhoto.h"
 
 @interface BTMDetailViewController : UIViewController <BeanTransitionManagerDelegate>
 
 @property (nonatomic, readonly) UIImageView *delegateContentImageView;
+@property (nonatomic, weak) BTMPhoto *photo;
 
 @end

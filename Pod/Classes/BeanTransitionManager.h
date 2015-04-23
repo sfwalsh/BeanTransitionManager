@@ -22,5 +22,8 @@
 
 - (instancetype)initWithExpandingImageView:(UIImageView*)expandingImageView andTransitionDuration:(NSTimeInterval)duration;
 - (instancetype)initWithExpandingImageView:(UIImageView*)expandingImageView;
+- (instancetype)initWithTransitionDuration:(NSTimeInterval)duration;
+
+- (void)setExpandingImageView:(UIImageView*)expandingImageView;
 
 @end

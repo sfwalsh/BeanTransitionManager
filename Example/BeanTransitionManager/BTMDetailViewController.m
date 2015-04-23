@@ -11,6 +11,7 @@
 @interface BTMDetailViewController ()
 
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UILabel *viewLabel;
 
 @end
 
@@ -26,6 +27,12 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.viewLabel.text = self.photo.photoTitle;
 }
 
 
