@@ -12,7 +12,7 @@ static float kDefaultTransitionLength   = 0.5;
 
 @interface BeanTransitionManager()
 
-@property (nonatomic, weak) UIImageView *expandingImageView;
+@property (nonatomic, strong) UIImageView *expandingImageView;
 @property (nonatomic, assign) NSTimeInterval transitionDuration;
 @property (nonatomic, assign) BOOL isPresenting;
 
@@ -53,9 +53,27 @@ static float kDefaultTransitionLength   = 0.5;
 
 
 #pragma mark - actions
-- (void)setExpandingImageView:(UIImageView *)expandingImageView
+- (void)updateExpandingImageView:(UIImageView *)expandingImageView
 {
-    _expandingImageView = expandingImageView;
+    self.expandingImageView = expandingImageView;
+}
+
+- (void)updateExpandingImageViewWithCell:(id<BeanTransitionManagerCellExpanding>)cell
+                             atIndexPath:(NSIndexPath *)indexPath
+                        inCollectionView:(UICollectionView *)collectionView
+                                  onView:(UIView *)view
+                             andDuration:(NSTimeInterval)duration
+{
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:cell.cellImageView.image];
+    
+    CGPoint origin_point  =  [collectionView cellForItemAtIndexPath:indexPath].frame.origin;
+    CGSize  size_of_view  =  cell.cellImageView.frame.size;
+    CGRect  view_rect     =  CGRectMake(origin_point.x, origin_point.y+64, size_of_view.width, size_of_view.height);
+    
+    imageView.frame = [view convertRect:view_rect toView:view];
+    [collectionView addSubview:imageView];
+    self.expandingImageView = imageView;
+    self.transitionDuration = duration;
 }
 
 #pragma mark - setters

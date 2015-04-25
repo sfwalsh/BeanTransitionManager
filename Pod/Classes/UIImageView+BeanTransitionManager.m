@@ -13,7 +13,7 @@
 - (void)expandToFullscreenWithDuration:(NSTimeInterval)duration
 {
     NSArray *fullscreenConstraints = [self fullscreenConstraintsOnView:self.superview];
-    [UIView animateWithDuration:duration delay:0.0 usingSpringWithDamping:0.7 initialSpringVelocity:5.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+    [UIView animateWithDuration:duration delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         [self.superview layoutIfNeeded];
         [self layoutIfNeeded];
         [self.superview addConstraints:fullscreenConstraints];

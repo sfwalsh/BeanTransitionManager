@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "UIImageView+BeanTransitionManager.h"
 
+@protocol BeanTransitionManagerCellExpanding <NSObject>
+
+@property (nonatomic, readonly) UIImageView *cellImageView;
+
+@end
+
 @protocol BeanTransitionManagerDelegate <NSObject>
 
 @property (nonatomic, readonly) UIImageView *delegateContentImageView;
@@ -24,6 +30,11 @@
 - (instancetype)initWithExpandingImageView:(UIImageView*)expandingImageView;
 - (instancetype)initWithTransitionDuration:(NSTimeInterval)duration;
 
-- (void)setExpandingImageView:(UIImageView*)expandingImageView;
+- (void)updateExpandingImageView:(UIImageView*)expandingImageView;
+- (void)updateExpandingImageViewWithCell:(id<BeanTransitionManagerCellExpanding>)cell
+                             atIndexPath:(NSIndexPath*)indexPath
+                        inCollectionView:(UICollectionView*)collectionView
+                                  onView:(UIView*)view
+                             andDuration:(NSTimeInterval)duration;
 
 @end

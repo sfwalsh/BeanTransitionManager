@@ -11,8 +11,8 @@
 @interface BTMPhotoCellCollectionViewCell()
 
 @property (nonatomic, weak) IBOutlet UILabel *cellLabel;
-
 @property (nonatomic, strong) BTMPhoto *photo;
+
 @end
 
 @implementation BTMPhotoCellCollectionViewCell
@@ -26,8 +26,15 @@
 
 - (void)setupViewWithPhoto:(BTMPhoto *)photo
 {
-    self.cellImageView.image = photo.photoImage;
+    self.photoImageView.image = photo.photoImage;
     self.cellLabel.text = photo.photoTitle;
+}
+
+
+#pragma mark - lazy loaders
+- (UIImageView *)cellImageView
+{
+    return self.photoImageView;
 }
 
 @end
