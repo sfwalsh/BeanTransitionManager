@@ -10,19 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "BeanTransitionManager"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BeanTransitionManager."
+  s.summary          = "A Pinterest style segue for expanding UIImageViews into detail views."
   s.description      = <<-DESC
-                       An optional longer description of BeanTransitionManager
+                        BeanTransitionManager is a means for expanding UIImageViews into detail views in a way similar to that used in the Pinterest iOS app.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+Please see the demo project included for example usage.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BeanTransitionManager"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/sfwalsh/BeanTransitionManager"
+  # s.screenshots     = "http://imgur.com/lEdyeAX"
   s.license          = 'MIT'
-  s.author           = { "Stephen Walsh" => "stephenw@donedeal.ie" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BeanTransitionManager.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Stephen Walsh" => "sw7891@hotmail.com" }
+  s.source           = { :git => "https://github.com/sfwalsh/BeanTransitionManager.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/Hapkido_ORourke'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
