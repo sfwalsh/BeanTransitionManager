@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BeanTransitionManager: 485cf44abe62a15a960b51e658ab22bad6b3f37e
+  BeanTransitionManager: 100542300df78371d5f3ea27c2ad76e98343312a
 
 COCOAPODS: 0.36.3
