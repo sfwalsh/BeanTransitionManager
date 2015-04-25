@@ -42,7 +42,7 @@ static NSString * const kCellIdentifier = @"photoCell";
 - (BeanTransitionManager *)beanTransitioningManager
 {
     if (!_beanTransitioningManager) {
-        _beanTransitioningManager = [[BeanTransitionManager alloc] initWithTransitionDuration:1];
+        _beanTransitioningManager = [[BeanTransitionManager alloc] initWithTransitionDuration:1.0];
     }
     
     return _beanTransitioningManager;
@@ -78,21 +78,7 @@ static NSString * const kCellIdentifier = @"photoCell";
         [self.collectionView deselectItemAtIndexPath:indexPath animated:YES];
         
         BTMPhotoCellCollectionViewCell* cell = (BTMPhotoCellCollectionViewCell*) [self.collectionView cellForItemAtIndexPath:indexPath];
-        
-        UIImageView *imageView = [[UIImageView alloc] initWithImage:cell.cellImageView.image];
-        imageView.clipsToBounds = YES;
-        CGPoint origin_point  =  [self.collectionView cellForItemAtIndexPath:indexPath].frame.origin;
-        CGSize  size_of_view  =  cell.cellImageView.frame.size;
-        CGRect  view_rect     =  CGRectMake(origin_point.x, origin_point.y, size_of_view.width, size_of_view.height);
-        
-        
-//        imageView.frame = view_rect;
-        imageView.frame = [self.collectionView convertRect:view_rect toView:self.view];
-        [self.view addSubview:imageView];
-        [self.beanTransitioningManager updateExpandingImageView:imageView];
-        
-        
-//        [self.beanTransitioningManager updateExpandingImageViewWithCell:cell atIndexPath:indexPath inCollectionView:self.collectionView onView:self.view andDuration:5.0];
+        [self.beanTransitioningManager updateExpandingImageViewWithCell:cell atIndexPath:indexPath inCollectionView:self.collectionView onView:self.view andDuration:5.0];
         
         destinationViewController.transitioningDelegate = self.beanTransitioningManager;
 //        [imageView removeFromSuperview];

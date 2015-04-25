@@ -15,6 +15,7 @@ static float kDefaultTransitionLength   = 0.5;
 @property (nonatomic, strong) UIImageView *expandingImageView;
 @property (nonatomic, assign) NSTimeInterval transitionDuration;
 @property (nonatomic, assign) BOOL isPresenting;
+@property (nonatomic, strong) UIImageView *transitionImageView;
 
 @end
 
@@ -64,16 +65,15 @@ static float kDefaultTransitionLength   = 0.5;
                                   onView:(UIView *)view
                              andDuration:(NSTimeInterval)duration
 {
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:cell.cellImageView.image];
-    
+    self.transitionImageView = [[UIImageView alloc] initWithImage:cell.cellImageView.image];
+    self.transitionImageView.clipsToBounds = YES;
     CGPoint origin_point  =  [collectionView cellForItemAtIndexPath:indexPath].frame.origin;
     CGSize  size_of_view  =  cell.cellImageView.frame.size;
-    CGRect  view_rect     =  CGRectMake(origin_point.x, origin_point.y+64, size_of_view.width, size_of_view.height);
+    CGRect  view_rect     =  CGRectMake(origin_point.x, origin_point.y, size_of_view.width, size_of_view.height);
     
-    imageView.frame = [view convertRect:view_rect toView:view];
-    [collectionView addSubview:imageView];
-    self.expandingImageView = imageView;
-    self.transitionDuration = duration;
+    self.transitionImageView.frame = [collectionView convertRect:view_rect toView:view];
+    [view addSubview:self.transitionImageView];
+    self.expandingImageView = self.transitionImageView;
 }
 
 #pragma mark - setters
@@ -114,6 +114,7 @@ static float kDefaultTransitionLength   = 0.5;
         [self animateApparitionWithContainerView:container toView:toViewController.view fromView:fromViewController.view andTransitionContext:transitionContext];
     }
     else{
+        [self.transitionImageView removeFromSuperview];
         [self createSnapshotViewWithViewController:fromViewController toViewController:toViewController transitionContext:transitionContext andBack:NO];
         [transitionContext completeTransition:YES];
     }
