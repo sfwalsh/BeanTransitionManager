@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 Please see the demo project included for example usage.
                        DESC
   s.homepage         = "https://github.com/sfwalsh/BeanTransitionManager"
-  # s.screenshots     = "http://imgur.com/lEdyeAX"
+  # s.screenshots     = "http://i.imgur.com/lEdyeAX.gif?1"
   s.license          = 'MIT'
   s.author           = { "Stephen Walsh" => "sw7891@hotmail.com" }
   s.source           = { :git => "https://github.com/sfwalsh/BeanTransitionManager.git", :tag => s.version.to_s }
