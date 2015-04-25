@@ -11,7 +11,6 @@
 #import "BTMPhoto.h"
 #import "BTMPhotoCellCollectionViewCell.h"
 #import "BTMDetailViewController.h"
-#import "BeanTransitionManagerGenerator.h"
 
 static NSString * const kShowDetailIdentifier = @"showDetail";
 static NSString * const kCellIdentifier = @"photoCell";
@@ -42,7 +41,7 @@ static NSString * const kCellIdentifier = @"photoCell";
 - (BeanTransitionManager *)beanTransitioningManager
 {
     if (!_beanTransitioningManager) {
-        _beanTransitioningManager = [[BeanTransitionManager alloc] initWithTransitionDuration:1.0];
+        _beanTransitioningManager = [[BeanTransitionManager alloc] initWithTransitionDuration:0.5];
     }
     
     return _beanTransitioningManager;
@@ -81,7 +80,6 @@ static NSString * const kCellIdentifier = @"photoCell";
         [self.beanTransitioningManager updateExpandingImageViewWithCell:cell atIndexPath:indexPath inCollectionView:self.collectionView onView:self.view andDuration:5.0];
         
         destinationViewController.transitioningDelegate = self.beanTransitioningManager;
-//        [imageView removeFromSuperview];
     }
 }
 
@@ -109,6 +107,26 @@ static NSString * const kCellIdentifier = @"photoCell";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     [self performSegueWithIdentifier:kShowDetailIdentifier sender:self];
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 6.6;
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 6.6;
+}
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
+{
+    return UIEdgeInsetsMake(6.6, 6.6, 6.6, 6.6);
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CGSizeMake(150, 150);
 }
 
 @end

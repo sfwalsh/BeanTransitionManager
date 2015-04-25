@@ -112,9 +112,11 @@ static float kDefaultTransitionLength   = 0.5;
         [self createSnapshotViewWithViewController:fromViewController toViewController:toViewController transitionContext:transitionContext andBack:YES];
         self.delegate = (id<BeanTransitionManagerDelegate>) toViewController;
         [self animateApparitionWithContainerView:container toView:toViewController.view fromView:fromViewController.view andTransitionContext:transitionContext];
+        if (self.transitionImageView) {
+            [self.transitionImageView removeFromSuperview];
+        }
     }
     else{
-        [self.transitionImageView removeFromSuperview];
         [self createSnapshotViewWithViewController:fromViewController toViewController:toViewController transitionContext:transitionContext andBack:NO];
         [transitionContext completeTransition:YES];
     }

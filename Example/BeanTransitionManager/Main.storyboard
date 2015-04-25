@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ziu-tY-c88">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -19,6 +20,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jhH-Ig-HEM">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="yKD-xi-ycc">
                                     <size key="itemSize" width="127" height="130"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -30,23 +32,47 @@
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flowers" translatesAutoresizingMaskIntoConstraints="NO" id="7wq-ks-wmY">
-                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="106"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbi-bQ-kA8">
+                                                    <rect key="frame" x="-56" y="134" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A lovely garden" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B91-35-egG">
+                                                    <rect key="frame" x="8" y="116" width="134" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="Roe-wW-FV7"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                    <color key="textColor" red="0.17255303259999999" green="0.1725478768" blue="0.17255079749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="7wq-ks-wmY" firstAttribute="top" secondItem="nmF-qg-pcE" secondAttribute="top" id="1rp-fs-6xP"/>
+                                            <constraint firstAttribute="bottom" secondItem="B91-35-egG" secondAttribute="bottom" constant="13" id="H8F-He-apu"/>
+                                            <constraint firstItem="B91-35-egG" firstAttribute="top" secondItem="7wq-ks-wmY" secondAttribute="bottom" constant="10" id="HFM-BV-sMd"/>
+                                            <constraint firstAttribute="trailing" secondItem="B91-35-egG" secondAttribute="trailing" constant="8" id="If7-0n-0B5"/>
                                             <constraint firstAttribute="bottom" secondItem="7wq-ks-wmY" secondAttribute="bottom" id="QuC-K2-ekC"/>
+                                            <constraint firstItem="B91-35-egG" firstAttribute="leading" secondItem="nmF-qg-pcE" secondAttribute="leading" constant="8" id="VMy-PY-Y7S"/>
                                             <constraint firstItem="7wq-ks-wmY" firstAttribute="leading" secondItem="nmF-qg-pcE" secondAttribute="leading" id="XSx-Rj-lWH"/>
                                             <constraint firstAttribute="trailing" secondItem="7wq-ks-wmY" secondAttribute="trailing" id="n36-LD-Rpx"/>
                                         </constraints>
-                                        <size key="customSize" width="100" height="100"/>
+                                        <size key="customSize" width="150" height="150"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="QuC-K2-ekC"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <outlet property="photoImageView" destination="7wq-ks-wmY" id="R9Z-gs-j1U"/>
                                         </connections>
@@ -128,7 +154,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.72941178080000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="M1m-e7-Htz" firstAttribute="leading" secondItem="3jP-og-pNs" secondAttribute="leading" id="NJj-u5-6HC"/>
                             <constraint firstItem="RnK-p5-H7f" firstAttribute="top" secondItem="gbe-Fp-cUc" secondAttribute="bottom" constant="-20" id="Nec-mf-rfW"/>

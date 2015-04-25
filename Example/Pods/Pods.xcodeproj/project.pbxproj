@@ -16,17 +16,13 @@
 		2FC2C1758D7FAFD8BE16D1D5 /* BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42A4384BEFCB556452768B /* BeanTransitionManager.m */; };
 		38C0BA9CA0718BF9D235FC62 /* BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C9392F18EEC43291742831 /* BeanTransitionManager.h */; };
 		44D4C62BD60932541CA62BF3 /* UIImageView+BeanTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B57C6C5EF466607F86848B6 /* UIImageView+BeanTransitionManager.m */; };
-		47AD9948EBD36691A007B38A /* BeanTransitionManagerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E68D1D04232D680BFCD603 /* BeanTransitionManagerGenerator.m */; };
 		558037A9205BF78BE2786950 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAF16F025119ABA3C7BA910 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */; };
-		5A7B5AFDBC80B4862FB077BF /* BeanTransitionManagerGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E46F34992F18838302DAD3B /* BeanTransitionManagerGenerator.h */; };
 		5B58AE0F40762AD6498855DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B3558071413A756A3BC1F0 /* Foundation.framework */; };
 		61976A67CC7BEFD518A1DABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B3558071413A756A3BC1F0 /* Foundation.framework */; };
 		79C1488F04935EE505AEA9FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B3558071413A756A3BC1F0 /* Foundation.framework */; };
 		7B2739D897BF54C5880D5EE8 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3C275B2FF2DFF94339A127 /* Pods-Tests-dummy.m */; };
 		7D75615F558A5F950961C43E /* UIImageView+BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F52BDF2A71FD23BA8EBC406 /* UIImageView+BeanTransitionManager.h */; };
 		858FE121C9695F3A02229432 /* BeanTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C9392F18EEC43291742831 /* BeanTransitionManager.h */; };
-		9772F5AD3AC173D1C90D8B91 /* BeanTransitionManagerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E68D1D04232D680BFCD603 /* BeanTransitionManagerGenerator.m */; };
-		E8A658063848BE8770B4FF9A /* BeanTransitionManagerGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E46F34992F18838302DAD3B /* BeanTransitionManagerGenerator.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +71,6 @@
 		59C9392F18EEC43291742831 /* BeanTransitionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BeanTransitionManager.h; sourceTree = "<group>"; };
 		5B5C5AC00FC1A4BC6F0DA24E /* BeanTransitionManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanTransitionManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C682BACDF8549B30E252D74 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		5E46F34992F18838302DAD3B /* BeanTransitionManagerGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BeanTransitionManagerGenerator.h; sourceTree = "<group>"; };
 		61525F2C558CB02935954908 /* Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeanTransitionManager-BeanTransitionManager-prefix.pch"; sourceTree = "<group>"; };
 		6728805623FA037BCA2EF001 /* Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeanTransitionManager-BeanTransitionManager-Private.xcconfig"; sourceTree = "<group>"; };
 		762D35D9D4CCE57BD9FE2FE0 /* Pods-BeanTransitionManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeanTransitionManager-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -86,7 +81,6 @@
 		901FA228A576CDB7F5E99EFF /* Pods-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
 		AA12CFDAA115F8F952237AF2 /* BeanTransitionManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanTransitionManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42CE4C72542B9976CFB2297 /* Pods-Tests-BeanTransitionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-BeanTransitionManager-prefix.pch"; path = "../Pods-Tests-BeanTransitionManager/Pods-Tests-BeanTransitionManager-prefix.pch"; sourceTree = "<group>"; };
-		B6E68D1D04232D680BFCD603 /* BeanTransitionManagerGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BeanTransitionManagerGenerator.m; sourceTree = "<group>"; };
 		BA3C275B2FF2DFF94339A127 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
 		BB42A4384BEFCB556452768B /* BeanTransitionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BeanTransitionManager.m; sourceTree = "<group>"; };
 		CCAF16F025119ABA3C7BA910 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeanTransitionManager-BeanTransitionManager-dummy.m"; sourceTree = "<group>"; };
@@ -203,8 +197,6 @@
 			children = (
 				59C9392F18EEC43291742831 /* BeanTransitionManager.h */,
 				BB42A4384BEFCB556452768B /* BeanTransitionManager.m */,
-				5E46F34992F18838302DAD3B /* BeanTransitionManagerGenerator.h */,
-				B6E68D1D04232D680BFCD603 /* BeanTransitionManagerGenerator.m */,
 				4F52BDF2A71FD23BA8EBC406 /* UIImageView+BeanTransitionManager.h */,
 				8B57C6C5EF466607F86848B6 /* UIImageView+BeanTransitionManager.m */,
 			);
@@ -291,7 +283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				858FE121C9695F3A02229432 /* BeanTransitionManager.h in Headers */,
-				5A7B5AFDBC80B4862FB077BF /* BeanTransitionManagerGenerator.h in Headers */,
 				7D75615F558A5F950961C43E /* UIImageView+BeanTransitionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +292,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C0BA9CA0718BF9D235FC62 /* BeanTransitionManager.h in Headers */,
-				E8A658063848BE8770B4FF9A /* BeanTransitionManagerGenerator.h in Headers */,
 				09E91D3376D95E73BF383A6A /* UIImageView+BeanTransitionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,7 +456,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC2C1758D7FAFD8BE16D1D5 /* BeanTransitionManager.m in Sources */,
-				9772F5AD3AC173D1C90D8B91 /* BeanTransitionManagerGenerator.m in Sources */,
 				0DDCE48D07AD88C68ECE2CD3 /* Pods-Tests-BeanTransitionManager-dummy.m in Sources */,
 				44D4C62BD60932541CA62BF3 /* UIImageView+BeanTransitionManager.m in Sources */,
 			);
@@ -507,7 +496,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ADED30CB4B6E8B3B7DA842D /* BeanTransitionManager.m in Sources */,
-				47AD9948EBD36691A007B38A /* BeanTransitionManagerGenerator.m in Sources */,
 				558037A9205BF78BE2786950 /* Pods-BeanTransitionManager-BeanTransitionManager-dummy.m in Sources */,
 				2FB4492407349F41070E71CF /* UIImageView+BeanTransitionManager.m in Sources */,
 			);

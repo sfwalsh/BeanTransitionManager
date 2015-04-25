@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BTMPhoto.h"
-#import "BeanTransitionManagerGenerator.h"
+#import "BeanTransitionManager.h"
 
 @interface BTMPhotoCellCollectionViewCell : UICollectionViewCell <BeanTransitionManagerCellExpanding>
 

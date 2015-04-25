@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BTMViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface BTMViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @end
