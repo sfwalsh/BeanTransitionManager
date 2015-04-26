@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BeanTransitionManager"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A Pinterest style segue for expanding UIImageViews into detail views."
   s.description      = <<-DESC
                         BeanTransitionManager is a means for expanding UIImageViews into detail views in a way similar to that used in the Pinterest iOS app.
