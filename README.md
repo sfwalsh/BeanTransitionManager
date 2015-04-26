@@ -9,7 +9,7 @@
 ## Description
 BeanTransitionManager is a means for expanding UIImageViews into detail views in a way similar to that used in the Pinterest iOS app.
 
-![Alt text](http://i.imgur.com/lEdyeAX.gif?1 "Demo")
+![Alt text](http://i.imgur.com/O05sIIV.gif "Demo")
 
 
 
