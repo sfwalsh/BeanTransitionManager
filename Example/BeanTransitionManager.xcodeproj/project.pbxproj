@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		A4C1079466C5D7F84AECB0AF /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77A3739DDC3F3CF21241F3 /* libPods-Tests.a */; };
+		C690D7D71AEC807D00B7806E /* NonCollectionViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C690D7D61AEC807D00B7806E /* NonCollectionViewDemoViewController.m */; };
 		C699F8651AE9AC870051F646 /* BTMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C699F8641AE9AC870051F646 /* BTMPhoto.m */; };
 		C699F8681AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C699F8671AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.m */; };
 		C6BBE46C1AE994A000412AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BBE46B1AE994A000412AF0 /* Main.storyboard */; };
@@ -64,6 +65,8 @@
 		6DC4C4CF80C4DC39A508E76D /* BeanTransitionManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BeanTransitionManager.podspec; path = ../BeanTransitionManager.podspec; sourceTree = "<group>"; };
 		87BC728A92D555D501474240 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D8F2FCF4B719B7E9BA362A9 /* libPods-BeanTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeanTransitionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690D7D51AEC807D00B7806E /* NonCollectionViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonCollectionViewDemoViewController.h; sourceTree = "<group>"; };
+		C690D7D61AEC807D00B7806E /* NonCollectionViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonCollectionViewDemoViewController.m; sourceTree = "<group>"; };
 		C699F8631AE9AC870051F646 /* BTMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMPhoto.h; sourceTree = "<group>"; };
 		C699F8641AE9AC870051F646 /* BTMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMPhoto.m; sourceTree = "<group>"; };
 		C699F8661AE9AC960051F646 /* BTMPhotoCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMPhotoCellCollectionViewCell.h; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 		C699F86B1AE9ACAA0051F646 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C690D7D51AEC807D00B7806E /* NonCollectionViewDemoViewController.h */,
+				C690D7D61AEC807D00B7806E /* NonCollectionViewDemoViewController.m */,
 				C6BBE46D1AE9955900412AF0 /* BTMDetailViewController.h */,
 				C6BBE46E1AE9955900412AF0 /* BTMDetailViewController.m */,
 				6003F5A5195388D20070C39A /* BTMViewController.h */,
@@ -410,6 +415,7 @@
 				C699F8651AE9AC870051F646 /* BTMPhoto.m in Sources */,
 				6003F5A7195388D20070C39A /* BTMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C690D7D71AEC807D00B7806E /* NonCollectionViewDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

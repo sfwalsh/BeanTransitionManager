@@ -6,6 +6,56 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
+        <!--Non Collection View Demo View Controller-->
+        <scene sceneID="VHl-L5-tUk">
+            <objects>
+                <viewController storyboardIdentifier="NonCollectionViewExample" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bAY-3k-ng3" customClass="NonCollectionViewDemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iYC-1l-pTu"/>
+                        <viewControllerLayoutGuide type="bottom" id="H9A-ix-mfA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A3W-Yd-sEo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flowers" translatesAutoresizingMaskIntoConstraints="NO" id="maf-bo-roK">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="7rz-gD-abn"/>
+                                    <constraint firstAttribute="width" constant="100" id="yMP-fP-R2c"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMo-ca-vI2">
+                                <rect key="frame" x="277" y="358" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="Hhn-5c-8hx"/>
+                                    <constraint firstAttribute="height" constant="30" id="UJv-hQ-KW8"/>
+                                </constraints>
+                                <state key="normal" title="Grow">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="growButtonTapped:" destination="bAY-3k-ng3" eventType="touchUpInside" id="SXr-6V-3oi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="maf-bo-roK" secondAttribute="centerX" id="LWa-Lg-5EK"/>
+                            <constraint firstItem="UMo-ca-vI2" firstAttribute="top" secondItem="maf-bo-roK" secondAttribute="bottom" constant="8" id="Nvp-Tt-GW3"/>
+                            <constraint firstAttribute="centerX" secondItem="UMo-ca-vI2" secondAttribute="centerX" id="Olx-FF-O1L"/>
+                            <constraint firstAttribute="centerY" secondItem="maf-bo-roK" secondAttribute="centerY" id="dev-H7-j38"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sourceImageView" destination="maf-bo-roK" id="SNz-XR-NjR"/>
+                        <segue destination="YTn-4a-Gij" kind="presentation" identifier="showDetail" id="Jbw-Wg-NJb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UEO-rZ-Y6X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1177" y="-395"/>
+        </scene>
         <!--My Photos-->
         <scene sceneID="XTd-86-02f">
             <objects>
@@ -182,7 +232,7 @@
         <!--Navigation Controller-->
         <scene sceneID="aE5-EH-P36">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ziu-tY-c88" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="CollectionViewDemo" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ziu-tY-c88" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HfG-R5-49H">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -201,4 +251,7 @@
     <resources>
         <image name="flowers" width="500" height="343"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Jbw-Wg-NJb"/>
+    </inferredMetricsTieBreakers>
 </document>

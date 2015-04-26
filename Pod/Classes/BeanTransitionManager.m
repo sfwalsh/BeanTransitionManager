@@ -15,7 +15,6 @@ static float kDefaultTransitionLength   = 0.5;
 @property (nonatomic, strong) UIImageView *expandingImageView;
 @property (nonatomic, assign) NSTimeInterval transitionDuration;
 @property (nonatomic, assign) BOOL isPresenting;
-@property (nonatomic, strong) UIImageView *transitionImageView;
 
 @end
 
@@ -65,15 +64,13 @@ static float kDefaultTransitionLength   = 0.5;
                                   onView:(UIView *)view
                              andDuration:(NSTimeInterval)duration
 {
-    self.transitionImageView = [[UIImageView alloc] initWithImage:cell.cellImageView.image];
-    self.transitionImageView.clipsToBounds = YES;
+    self.expandingImageView = [[UIImageView alloc] initWithImage:cell.cellImageView.image];
+    self.expandingImageView.clipsToBounds = YES;
     CGPoint origin_point  =  [collectionView cellForItemAtIndexPath:indexPath].frame.origin;
     CGSize  size_of_view  =  cell.cellImageView.frame.size;
     CGRect  view_rect     =  CGRectMake(origin_point.x, origin_point.y, size_of_view.width, size_of_view.height);
     
-    self.transitionImageView.frame = [collectionView convertRect:view_rect toView:view];
-    [view addSubview:self.transitionImageView];
-    self.expandingImageView = self.transitionImageView;
+    self.expandingImageView.frame = [collectionView convertRect:view_rect toView:view];
 }
 
 #pragma mark - setters
@@ -105,20 +102,21 @@ static float kDefaultTransitionLength   = 0.5;
     UIViewController *fromViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     
-    
     if(self.isPresenting){
+        
         [container addSubview:fromViewController.view];
         [container addSubview:toViewController.view];
+        
         [self createSnapshotViewWithViewController:fromViewController toViewController:toViewController transitionContext:transitionContext andBack:YES];
         self.delegate = (id<BeanTransitionManagerDelegate>) toViewController;
+        
         [self animateApparitionWithContainerView:container toView:toViewController.view fromView:fromViewController.view andTransitionContext:transitionContext];
-        if (self.transitionImageView) {
-            [self.transitionImageView removeFromSuperview];
-        }
     }
     else{
-        [self createSnapshotViewWithViewController:fromViewController toViewController:toViewController transitionContext:transitionContext andBack:NO];
-        [transitionContext completeTransition:YES];
+        [container addSubview:toViewController.view];
+        [container addSubview:fromViewController.view];
+        
+        [self animateDisappearanceWithContainerView:container toView:toViewController.view fromView:fromViewController.view andTransitionContext:transitionContext];
     }
 }
 
@@ -130,6 +128,36 @@ static float kDefaultTransitionLength   = 0.5;
     [transitionContext completeTransition:YES];
     [self.delegate.delegateContentImageView destroyAllConstraintsAndAlignToView:self.expandingImageView];
     [self.delegate.delegateContentImageView expandToFullscreenWithDuration:self.transitionDuration];
+}
+
+- (void)animateDisappearanceWithContainerView:(UIView*)containerView
+                                       toView:(UIView*)toView
+                                     fromView:(UIView*)fromView
+                         andTransitionContext:(id<UIViewControllerContextTransitioning>)transitionContext
+{
+    [UIView animateWithDuration:self.transitionDuration delay:0 usingSpringWithDamping:2 initialSpringVelocity:5.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        
+        [self.delegate.delegateContentImageView destroyAllConstraintsAndAlignToView:self.expandingImageView];
+        [self hideNonDelegateSubviewsWithViews: fromView.subviews];
+
+        fromView.backgroundColor = [UIColor clearColor];
+        
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [transitionContext completeTransition:YES];
+        }
+    }];
+}
+
+- (void)hideNonDelegateSubviewsWithViews:(NSArray*)viewsToFadeOut
+{
+    for (UIView *subview in viewsToFadeOut) {
+        if (subview.subviews) {
+            if (![subview.subviews containsObject:self.delegate.delegateContentImageView]) {
+                subview.alpha = 0;
+            }
+        }
+    }
 }
 
 - (void)createSnapshotViewWithViewController:(UIViewController*)fromViewController
